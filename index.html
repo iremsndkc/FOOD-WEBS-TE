@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food WebSite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--! header start-->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search-here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="img/karamel.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="img/çilek.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="img/çiko.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="img/berry.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!--!header end-->
+    <!--!home start-->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>MERİS ECLAİR AND CAKES STORE</h3>
+        <p>"Happiness in every slice, Meris Cake Shop!"</p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+    </section>
+    <!--!home end-->
+    <!--!menu start-->
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="img/çilek.png" alt="menu" />
+            <span class="menu-category">ECLAİR</span>
+            <h3>STRAWBERRY ECLAİRS</h3>
+            <div class="price">$105 <span>$110</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="img/berry.png" alt="menu" />
+            <span class="menu-category">ECLAİR</span>
+            <h3>BLUEBERRY ECLAİRS</h3>
+            <div class="price">$120 <span>$135</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="img/karamel.png" alt="menu" />
+            <span class="menu-category">ECLAİR</span>
+            <h3>CARAMEL ECLAİRS</h3>
+            <div class="price">$115 <span>$125</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="img/çiko.png" alt="menu" />
+            <span class="menu-category">ECLAİR</span>
+            <h3>CHOCOLATE ECLAİRS</h3>
+            <div class="price">$110 <span>$120</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--!menu and-->
+
+    <!--!products start-->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">ECLAİRS TYPES</span>
+            <a href="#" class="name">MİXED</a>
+          </div>
+          <div class="image">
+            <img src="img/menu1.jpeg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$100.00</b>
+              <span class="amount">110gr / 300cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">CHEESECAKE</span>
+            <a href="#" class="name">RASPBERRY</a>
+          </div>
+          <div class="image">
+            <img src="img/cheesecake.jpeg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$100.00</b>
+              <span class="amount">110gr / 300cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">CUPCAKE</span>
+            <a href="#" class="name">FRUİT</a>
+          </div>
+          <div class="image">
+            <img src="img/cupcake.jpeg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$100.00</b>
+              <span class="amount">110gr / 300cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--!products end-->
+
+    <!--!about start/-->
+    <section class="about" id="about">
+      <h1 class="heading">about <span>us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="img/about.jpeg" alt="about" />
+        </div>
+        <div class="content">
+          <h3>What Is The Secret Recipe Of Our Eclair Cakes?</h3>
+          <p>
+            Meris Ekler Cake Shop is a taste point that offers delicious tastes
+            to its taste-loving customers. We are a brand that has been
+            operating in the sector for more than 5 years and has proven its
+            mastery in taste experience. We aim to offer our guests not only a
+            sweet snack, but also an unforgettable taste experience.
+          </p>
+          <p>
+            As Meris Ekler Cake Shop, we adhere to the principles of quality and
+            freshness in each of our products. By using the highest quality
+            ingredients in our ingredients, each eclair cake offers our
+            customers a special feast of taste. Our original recipes, prepared
+            by our expert chefs, leave an unforgettable mark on the palates of
+            dessert lovers. We constantly renew and improve ourselves to ensure
+            the satisfaction of our guests and the enrichment of their taste
+            experiences.
+          </p>
+          <p>
+            Meris Ekler Cake Shop is not just a dessert shop, but also the
+            meeting point of taste and flavors. We aim to provide delicious
+            moments in a friendly environment that makes each of our customers
+            feel special. Enjoy the world of desserts at Meris Ekler Cake Shop
+            and go on an unforgettable taste journey.
+          </p>
+          <p>
+            "Meris Ekler Cake Shop serves its guests as an address where taste
+            and passion come together. We strive to appeal to the taste of each
+            of our customers and provide unforgettable taste experiences. With
+            our approach focused on customer satisfaction and taste quality, we
+            always strive to offer the best." As Meris Ekler Cake Shop, we see
+            each of our guests as a part of our family and we are proud to offer
+            them quality and original tastes in a warm environment.
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!--!about end/-->
+
+    <!--!reviews start-->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/yorum.png" alt="yorum" />
+          <p>
+            "I'm so glad I discovered Meris Ekler Cake Shop! I feel like I'm in
+            a fairy tale world with every bite. The flavors are so unique and
+            the desserts are so light that I don't want to eat dessert anywhere
+            else anymore. Thank you Meris, for this delicious journey!"
+          </p>
+          <img src="img/insan.5.jpeg" alt="insan" class="user" />
+          <h3>Blue Smith</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/yorum.png" alt="yorum" />
+          <p>
+            "Meris Ekler Cake Shop has become the savior of our sweet cravings!
+            It is possible to experience a new taste every time we go. The
+            sincerity of the staff and the quality of the products are truly
+            admirable. My favorite is the chocolate eclair cake, but other
+            flavors are also delicious. I definitely recommend it to everyone!"
+          </p>
+          <img src="img/insan.4.jpeg" alt="insan" class="user" />
+          <h3>Daisy Smith</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/yorum.png" alt="yorum" />
+          <p>
+            "Meris Ekler Cake Shop is like a paradise full of desserts for me!
+            They offer a perfect experience both visually and in taste. It is my
+            preferred place, especially on special occasions and celebrations.
+            It is always possible to find fresh and delicious products. Meris,
+            for these wonderful tastes thanks!"
+          </p>
+          <img src="img/insan.3.jpeg" alt="insan" class="user" />
+          <h3>Clementine Smith</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--!reviews end-->
+
+    <!--!contact start-->
+    <section class="contact" id="contact">
+      <h1 class="heading">contact <span>us</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12035.093104637153!2d29.000355005264282!3d41.05208691779725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7afd662296b%3A0x838c088492dac437!2zWcSxbGTEsXogVGVrbmlrIMOcbml2ZXJzaXRlc2k!5e0!3m2!1str!2str!4v1713262553243!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="e-mail" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="phone number" />
+          </div>
+          <input type="submit" class="btn" value="contact now" />
+        </form>
+      </div>
+    </section>
+    <!--!contact end-->
+
+    <!--!blogs start-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blog</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="img/eklernasılyapılır.jpeg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make eclairs?</a>
+            <span>by meris/7st june,2021</span>
+            <p>
+              "Ekek cake is one of the indispensable tastes of French cuisine.
+              This delicious dessert, prepared by adding cream or chocolate
+              filling to a thin and fluffy dough, is also visually appealing.
+              Although the making of eclair cake is a process that requires
+              care, it fascinates everyone with its results. This is unique."
+              The subtleties and tips of making dessert at home..."
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/kek nasıl yapılır.jpeg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">how to make cheesecake?</a>
+            <span>by meris/18st jul,2023</span>
+            <p>
+              "Cheesecake is a dessert loved all over the world, known for its
+              creamy texture and intense taste. Cheesecake, which is generally
+              prepared by blending compatible ingredients, offers a feast with
+              every bite. With many different versions, from the classic New
+              York recipe to chocolate or fruity varieties, cheesecake
+              captivates the hearts of dessert lovers. continues to conquer.
+              Here are the subtleties and delicious secrets of making this
+              legendary dessert at home..."
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/mutfak.jpeg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">The Kitchen</a>
+            <span>by meris/6st jul,2023</span>
+            <p>
+              "Meris Ekler Cake Shop's kitchen is the meeting point of taste and
+              care. Here, each of our products is prepared meticulously and the
+              highest quality tastes are offered to our customers. Our master
+              chefs combine their original recipes with the highest quality
+              ingredients, making each of our eclair cakes, cheesecakes and
+              other desserts a unique experience." While the highest level of
+              importance is given to hygiene and quality standards in our
+              kitchen, new tastes are constantly discovered to push the limits
+              of creativity and taste. Here is the secret and passion of the
+              flavors created in the kitchen of Meris Ekler Cake Shop..."
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--!blogs end-->
+    <!--!footer start-->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+      <div class="links">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </div>
+
+      <div class="credit">
+        created by <span>İrem</span> | all rights reserved.
+      </div>
+    </section>
+
+    <!--!footer end-->
+    <script src="script/script.js"></script>
+  </body>
+</html>
